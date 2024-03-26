@@ -15,9 +15,9 @@
   }
   
   header {
-    background-color: rgb(48,110,193);
+    background-color: rgb(189, 0, 0);
     background-image: 
-      radial-gradient(at 0% 50%, rgba(48,110,193,1) 35%, rgba(48,110,193,0) 100%),                            url("https://images.unsplash.com/photo-1578070181910-f1e514afdd08");
+      radial-gradient(at 0% 50%, rgb(193, 48, 48) 35%, rgba(48,110,193,0) 100%),                            url("https://images.unsplash.com/photo-1578070181910-f1e514afdd08");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
