@@ -15,7 +15,7 @@
   }
   
   header {
-    background-color:
+    background-color: rgb(189, 0, 0);
     background-image: src="img/header.jpeg"
       radial-gradient(at 0% 50%, rgb(193, 48, 48) 35%, rgba(48,110,193,0) 100%),                            url("https://uofnelincoln-my.sharepoint.com/:i:/g/personal/eweldon2_unl_edu/ERSgHxt2nrdOi2j203ApqrQBqLJyjVF3ZBMYTWBYBVNPjA?e=xfmMS9https://images.unsplash.com/photo-1578070181910-f1e514afdd08");
     background-repeat: no-repeat;
