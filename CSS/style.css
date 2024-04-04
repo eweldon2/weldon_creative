@@ -216,12 +216,12 @@
     display: inline-block;
     text-decoration: none;
     padding: 10px 20px;
-    background-color: rgb(48,110,193);
+    background-color: rgb(220, 0, 0);
     color: #fff;
     border-radius: 6px;
     transition: all 0.2s ease;
   }
   
   .card-btn:hover {
-    background-color: rgb(68,130,213);
+    background-color: rgb(220, 0, 0);
   }
