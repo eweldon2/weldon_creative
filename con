@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-    <li><a href="Contact.html">Contact</a></li>
 <head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="substyles.css">
+</head>
+
     <link rel="stylesheet" href="substyles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
