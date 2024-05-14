@@ -81,7 +81,7 @@ nav {
 
 .profile-img {
   width: 200px; /* Increased size for profile image */
-  height: 300px; /* Maintaining aspect ratio */
+  height: 220px; /* Maintaining aspect ratio */
   border-radius: 50%;
   margin: 30px auto; /* Increased margin for better spacing */
   display: block;
