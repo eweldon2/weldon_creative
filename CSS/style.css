@@ -104,7 +104,7 @@ nav {
 .photo-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 10px;
+  gap: 5px;
 }
 
 .gallery-img {
