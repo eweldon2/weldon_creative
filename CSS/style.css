@@ -116,6 +116,6 @@ nav {
   }
 }
 .responsive-video {
-  width: 200%;   /* Adjusts to the width of its container */
-  height: 1000px; /* Increased height for a larger video display */
+  width: 100% !important;   /* Adjusts to the width of its container */
+  height: 1000px !important; /* Increased height for a larger video display */
 }
