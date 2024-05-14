@@ -114,3 +114,7 @@ nav {
     display: flex;
   }
 }
+.responsive-video {
+  width: 100%;   /* Adjusts to the width of its container */
+  height: 500px; /* Fixed height, but you can make it responsive too */
+}
