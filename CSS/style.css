@@ -108,7 +108,7 @@ nav {
 }
 
 .gallery-img {
-  width: 20%;
+  width: 50%;
   height: auto;
   transition: transform 0.3s ease-in-out;
   cursor: pointer; /* Indicates interactive elements */
