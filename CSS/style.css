@@ -116,18 +116,13 @@ nav {
   height: auto; /* Adjust height to maintain aspect ratio */
   object-fit: cover; /* Ensures the images cover their frames without stretching */
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
 }
 .image-wrapper {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   height: 300px; /* Must match the height set for .gallery-img */
-}
-.gallery-img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px; /* Optional: adds rounded corners to your images */
-  transition: transform 0.3s ease-in-out;
 }
 .gallery-img:hover {
   transform: scale(1.05); /* Zoom effect on hover */
