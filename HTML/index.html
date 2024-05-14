@@ -2,124 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <title>Ethan Weldon | Creative Media</title>
 </head>
 <body>
-  
-  <!-- Header -->
   <header>
-    <h1>Weldon Creative</h1>
+    <h1>Ethan Weldon Creative</h1>
+    <nav>
+      <button id="mobile-btn" aria-label="Toggle navigation"><span class="bar"></span></button>
+      <ul id="navi-list">
+        <li><a href="html/about.html">About</a></li>
+        <li><a href="html/work.html">Work</a></li>
+        <li><a href="html/contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
-  
-  <!-- Navigation -->
-  <nav>
-    <button id="mobile-btn" type="button">
-      Menu
-      <i class="bar"></i>
-      <i class="bar"></i>
-      <i class="bar"></i>
-    </button>
-    <ul id="navi-list">
-      <li>
-        <a href="html/about.html">About</a>
-      </li>
-      <li>
-        <a href="html/work.html">Work</a>
-      </li>
-      <li>
-        <a href="html/contact.html">Contact</a>
-      </li>
-    </ul>
-  </nav>
-  
-  <!-- Section -->
   <main>
-  <section>
-
-    <div style="padding-bottom:56.25%;position:relative;height:0;">
-      <iframe style="position: absolute;top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/jliu5rKlNN0?si=-LjaM3gV5eoFQjak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <section class="intro">
+      <img src="img/ethan-weldon.png" alt="Ethan Weldon" class="profile-img">
+      <div class="intro-text">
+        <h2>Hi, I'm Ethan!</h2>
+        <p>With 4 years of experience in sports photo and video, I create engaging media that tells compelling stories. Currently enhancing the creative media at Husker Athletics.</p>
+      </div>
+    </section>
+    <section class="portfolio-highlight">
+      <h2>Featured Work</h2>
+      <iframe src="https://www.youtube.com/embed/jliu5rKlNN0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      <p>Check out my latest video project!</p>
+    </section>
+    <div class="card-stack">
+      <div class="card" style="background-image:url('img/Long.jpg');">
+        <div class="card-content">
+          <h3>Long Videos</h3>
+          <p>Documentaries and stories that dive deep.</p>
+          <a class="btn" href="#">View More</a>
+        </div>
+      </div>
+      <!-- More cards similar to the above -->
     </div>
-
-    
-
-
-    <h2>Hi, I'm Ethan!</h2>
-    <p>Over the past 4 years, I've built my sports photo and video portfolio through freelance and team-based environments on the high school, collegiate, and professional levels. 
-        I'm currently studying ADPR at the University of Nebraska-Lincoln, and am involved with the creative media department for all of Husker Athletics.</p>
-    <h2>I love what I do.</h2>
-    <p>Whether it's a documentary project showing the unique struggles and traits of an individual, or a fast-paced highlight tape that excites and captivates, 
-        I have truly fallen in love with the craft of creative media. So if I ever have the pleasure of joining your team or directing a project for your brand, 
-        just know that I take pride in my work, and in your decision to choose me. Thank you for reading and don't be afraid to reach out with any questions or inquiries!</p>
-    
-    
-  </section>
-  
-  <!-- aside -->
-  <aside>
-    <img src="img/ethan-weldon.png" alt="Photo of Ethan Weldon">
-  </aside>
   </main>
-  
-  
-  <!-- Cards -->
-  
-  <div class="card-stack">
-      <div class="card">
-    
-  <img src="img/Long.jpg" alt="Photo of Ethan Weldon" class="card-img">
-  
-  <div class="card-body">
-    <h3 class="card-heading">Long Videos</h3>
-    <p class="card-subtitle">Telling Stories</p>
-  <p>Documentaries, triumphs, and more.</p>
-    <a class="btn card-btn" href="#">Open Page</a>  
-  </div>
-  
-  </div>
-      <div class="card">
-    
-  <img src="img/short.jpg" alt="Photo of Ethan Weldon" class="card-img">
-  
-  <div class="card-body">
-    <h3 class="card-heading">Short Videos</h3>
-    <p class="card-subtitle">Grabbing Attention</p>
-  <p>Primed to reel audiences in.</p>
-    <a class="btn card-btn" href="#">Open Page</a>  
-  </div>
-  
-  </div>
-      <div class="card">
-    
-  <img src="img/photo.JPG" alt="Photo of Ethan Weldon" class="card-img">
-  
-  <div class="card-body">
-    <h3 class="card-heading">Photo</h3>
-    <p class="card-subtitle">Capturing Moments</p>
-  <p>Catching frames of cherrished memories.</p>
-    <a class="btn card-btn" href="#">Open Page</a>  
-  </div>
-  
-  </div>
-      <div class="card">
-    
-  <img src="img/event.JPG" alt="Photo of Ethan Weldon" class="card-img">
-  
-  <div class="card-body">
-    <h3 class="card-heading">Event</h3>
-    <p class="card-subtitle">Covering It All</p>
-  <p>Concerts, gatherings, products and more.</p>
-    <a class="btn card-btn" href="#">Open Page</a>  
-  </div>
-  </div>
-  
- <div> 
-  <!-- Footer -->
   <footer>
-    <p>&copy; 2024 Ethan Weldon</p>
+    <p>&copy; 2024 Ethan Weldon. All rights reserved.</p>
   </footer>
-</div>
 </body>
 </html>
