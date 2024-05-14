@@ -123,12 +123,6 @@ nav {
   align-items: center; /* Center vertically */
   height: 300px; /* Must match the height set for .gallery-img */
 }
-
-.gallery-img {
-  width: 100%;        /* Adjust based on your design preference */
-  max-height: 100%;   /* Makes sure the image does not overflow its container */
-  object-fit: cover;  /* Ensures the image covers the area nicely */
-}
 .gallery-img {
   width: 100%;
   height: auto;
