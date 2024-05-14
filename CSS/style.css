@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  max-width: 1200px; /* Increased max width for more space */
+  max-width: 1800px; /* Increased max width for more space */
   margin: auto;
   padding: 40px; /* Increased padding for better spacing */
   display: flex;
