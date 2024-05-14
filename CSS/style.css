@@ -6,7 +6,8 @@
 }
 
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  ;
   background-color: #f4f4f4;
   color: #333;
   padding: 0;
