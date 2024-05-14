@@ -108,14 +108,14 @@ nav {
 }
 
 .gallery-img {
-  width: 100%;
+  width: 20%;
   height: auto;
   transition: transform 0.3s ease-in-out;
   cursor: pointer; /* Indicates interactive elements */
 }
 
 .gallery-img:hover {
-  transform: scale(1.1); /* Zoom effect on hover */
+  transform: scale(1.05); /* Zoom effect on hover */
 }
 
 /* Modal CSS */
