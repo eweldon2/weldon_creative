@@ -101,20 +101,6 @@ nav {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly larger shadow for effect */
 }
 
-@media (max-width: 400px) {
-  #mobile-btn {
-    display: block;
-  }
-
-  #navi-list {
-    flex-direction: column;
-    display: none;
-  }
-
-  #navi-list.active {
-    display: flex;
-  }
-  /* Ensure the file path in the HTML is correct */
 .photo-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -181,4 +167,18 @@ nav {
   padding: 10px 0;
   height: 150px;
 }
+
+@media (max-width: 400px) {
+  #mobile-btn {
+    display: block;
+  }
+
+  #navi-list {
+    flex-direction: column;
+    display: none;
+  }
+
+  #navi-list.active {
+    display: flex;
+  }
 }
