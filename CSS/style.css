@@ -117,7 +117,24 @@ nav {
   object-fit: cover; /* Ensures the images cover their frames without stretching */
   cursor: pointer;
 }
+.image-wrapper {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 300px; /* Must match the height set for .gallery-img */
+}
 
+.gallery-img {
+  width: 100%;        /* Adjust based on your design preference */
+  max-height: 100%;   /* Makes sure the image does not overflow its container */
+  object-fit: cover;  /* Ensures the image covers the area nicely */
+}
+.gallery-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px; /* Optional: adds rounded corners to your images */
+  transition: transform 0.3s ease-in-out;
+}
 .gallery-img:hover {
   transform: scale(1.05); /* Zoom effect on hover */
 }
