@@ -285,23 +285,24 @@ section {
   margin-top: 20px; /* Adds space above the contact information */
 }
 .video-section {
-  margin-bottom: 40px; /* Adds space between sections */
-  text-align: center; /* Centers the content within the section */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This ensures that all content in the video section is centered */
+  margin-bottom: 40px;
 }
 
 .video-container {
   position: relative;
   padding-bottom: 56.25%; /* Correct 16:9 Aspect Ratio, with percentage unit */
   height: 0;
-  margin: auto; /* Centers the video container if it's not naturally full width */
+  width: 100%; /* Ensures the container spans the full width of its parent */
 }
 
 .video-container iframe {
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0; /* Added to ensure full coverage in the container */
-  bottom: 0; /* Added to ensure full coverage in the container */
+  left: 50%; /* Positions the left edge of the iframe at the center of the container */
+  transform: translateX(-50%); /* Shifts the iframe back by half its width to center it */
   width: 100%;
   height: 100%;
 }
@@ -314,7 +315,7 @@ footer {
 }
 
 h1, h2 {
-  margin: 0 0 10px 0;
+  margin: 10px 0;
 }
 
 p {
