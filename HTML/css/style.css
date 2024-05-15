@@ -118,3 +118,21 @@ nav {
   width: 100%;   /* Adjusts to the width of its container */
   height: 500px; /* Fixed height, but you can make it responsive too */
 }
+.card {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
+  background-color: #fff;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+  width: 150px; /* Adjust based on your design preference */
+  height: auto; /* Adjust height to maintain aspect ratio */
+  margin-right: 20px; /* Space between the image and the text content */
+}
+
+.card-content {
+  flex-grow: 1; /* Allows the content area to fill the available space */
+}
