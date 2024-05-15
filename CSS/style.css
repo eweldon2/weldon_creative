@@ -379,3 +379,8 @@ h2 + p {
   margin-top: 20px; /* Optional: adds top margin for spacing */
   margin-bottom: 20px; /* Optional: adds bottom margin for spacing */
 }
+.intro-text {
+  text-align: center; /* Centers the text */
+  margin-top: 20px; /* Optional: adds top margin for spacing */
+  margin-bottom: 20px; /* Optional: adds bottom margin for spacing */
+}
