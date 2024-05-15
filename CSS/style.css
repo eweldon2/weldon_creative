@@ -232,3 +232,31 @@ button:hover {
 section {
   padding: 20px 0; /* Adds vertical padding to each section */
 }
+/* About Page Styles */
+#about-section {
+  max-width: 800px; /* Limits the width of the text for better readability */
+  margin: 0 auto; /* Centers the section in the page */
+  padding: 20px; /* Provides padding to prevent text from touching the edges */
+  font-family: 'Oswald', sans-serif; /* Maintains consistency in font */
+  line-height: 1.6; /* Increases line height for better readability */
+  color: #333; /* Dark grey color for better text readability */
+  background-color: #fff; /* Optional: can use a light background color */
+  border-radius: 10px; /* Rounds the corners of the background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+}
+
+#about-section h1 {
+  font-size: 28px; /* Larger font size for headings */
+  color: #222; /* Slightly darker color for heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+#about-section p {
+  margin-bottom: 16px; /* Adds bottom margin to each paragraph for spacing */
+  text-align: justify; /* Justifies the text to align it neatly on both sides */
+}
+
+#about-section .contact-info {
+  font-weight: bold; /* Highlights the contact information */
+  margin-top: 20px; /* Adds space above the contact information */
+}
