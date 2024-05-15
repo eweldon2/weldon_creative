@@ -101,8 +101,8 @@ nav {
 }
 
 .card-img {
-  width: 15px; /* Corrected width */
-  height: auto; /* Corrected height to maintain aspect ratio */
+  width: 15px !important; /* Corrected width */
+  height: auto !important; /* Corrected height to maintain aspect ratio */
   margin-right: 20px; /* Space between the image and the text content */
 }
 
