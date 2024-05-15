@@ -100,7 +100,7 @@ nav {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .card-img {
-  width: 150px; /* Adjust based on your design preference */
+  width: 15px; /* Adjust based on your design preference */
   height: auto; /* Adjust height to maintain aspect ratio */
   margin-right: 20px; /* Space between the image and the text content */
 }
