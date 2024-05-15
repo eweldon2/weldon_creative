@@ -293,7 +293,7 @@ section {
 
 .video-container {
   position: relative;
-  padding-bottom: 40%;  /* 16:9 Aspect Ratio */
+  padding-bottom: 35%;  /* 16:9 Aspect Ratio */
   height: 0;
   width: 100%;
 }
