@@ -236,7 +236,7 @@ section {
 #about-section {
   max-width: 800px; /* Limits the width of the text for better readability */
   margin: 0 auto; /* Centers the section in the page */
-  padding: 20px; /* Provides padding to prevent text from touching the edges */
+  padding: 20px 40px; /* Adds vertical and horizontal padding */
   font-family: 'Oswald', sans-serif; /* Maintains consistency in font */
   line-height: 1.6; /* Increases line height for better readability */
   color: #333; /* Dark grey color for better text readability */
