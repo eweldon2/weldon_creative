@@ -92,14 +92,38 @@ nav {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.image-container {
+  width: 100%; /* Full width of the container */
+  height: auto; /* Height auto for maintaining aspect ratio */
+  overflow: hidden; /* Prevents the image from overflowing the container */
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Centers the image vertically */
+  margin-bottom: 15px; /* Adds some space between the image and the text content */
+}
+
+.card-img {
+  max-width: 100%; /* Ensures the image does not exceed the container width */
+  height: auto; /* Maintains the aspect ratio */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for any hover effects */
+}
 
 .card {
-  flex-basis: 33%; /* Adjusted for slightly larger cards */
-  margin: 20px; /* Increased margin */
-  padding: 30px; /* Increased padding */
+  display: flex;
+  flex-direction: column; /* Stacks the image and the content vertically */
+  align-items: center; /* Aligns children (image container and content) to the center */
   background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly larger shadow for effect */
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
+
+.card-content {
+  text-align: center; /* Centers the text content within the card */
+  width: 100%; /* Ensures the content uses the full width of the card */
+}
+
 
 /* Photo Gallery Styles */
 .photo-gallery {
