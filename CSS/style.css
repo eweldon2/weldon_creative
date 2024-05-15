@@ -287,26 +287,15 @@ section {
 .video-section {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Ensures all content in the video section is centered */
-  margin-bottom: 40px; /* Adjust this value if needed */
-}
-
-.video-section {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   margin-bottom: 40px;
 }
 
 .video-container {
   position: relative;
-  padding-bottom: 56.25%; /* Keeps 16:9 aspect ratio */
+  padding-bottom: 56.25%;  /* 16:9 Aspect Ratio */
   height: 0;
   width: 100%;
-}
-
-.video-container + p {
-  margin-top: 10px; /* Reduces space between the video and the first paragraph */
 }
 
 .video-container iframe {
@@ -318,19 +307,14 @@ section {
   height: 100%;
 }
 
-/* Targeting headings and paragraphs specifically within video sections */
-.video-section h2,
-.video-section p {
-  text-align: center; /* Ensures text is centered under the video */
-  margin-top: 10px; /* Reduces the top margin */
-  margin-bottom: 10px; /* Reduces the bottom margin */
-}
-
-footer {
+/* Specific targeting for description and additional details */
+.video-description,
+.video-details {
   text-align: center;
-  padding: 10px 0;
-  background-color: #222;
-  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-
+h2 {
+  margin-bottom: 10px;  /* Reduces the space between the title and the description */
+}
