@@ -208,3 +208,27 @@ button:hover {
   color: white; /* Text color for the footer */
   margin-top: 40px; /* Adds space above the footer */
 }
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px; /* Adds space below each form input group */
+}
+
+.contact-info {
+  margin-top: 20px; /* Adds space above the contact info */
+  padding: 20px;
+  background-color: #f4f4f4; /* Optional: adds a subtle background color */
+  border-radius: 10px; /* Rounds the corners */
+}
+
+/* General padding around sections for better spacing */
+section {
+  padding: 20px 0; /* Adds vertical padding to each section */
+}
