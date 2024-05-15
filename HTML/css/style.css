@@ -99,9 +99,10 @@ nav {
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .card-img {
-  width: 15px; /* Adjust based on your design preference */
-  height: 20; /* Adjust height to maintain aspect ratio */
+  width: 150px; /* Corrected width */
+  height: auto; /* Corrected height to maintain aspect ratio */
   margin-right: 20px; /* Space between the image and the text content */
 }
 
@@ -111,19 +112,20 @@ nav {
 
 @media (max-width: 900px) {
   #mobile-btn {
-    display: block;
+      display: block;
   }
 
   #navi-list {
-    flex-direction: column;
-    display: none;
+      flex-direction: column;
+      display: none;
   }
 
   #navi-list.active {
-    display: flex;
+      display: flex;
   }
 }
+
 .responsive-video {
-  width: 100%;   /* Adjusts to the width of its container */
+  width: 100%; /* Adjusts to the width of its container */
   height: 500px; /* Fixed height, but you can make it responsive too */
 }
